@@ -1,0 +1,38 @@
+Files  CREATED :
+
+Python Files Folder :-
+       
+              1. webscraped.py : This file contains the code to extract ArticleText and ArticleTitle for all the URLS mentioned in                                                     Input.xlsx file provided.
+  
+              2. outputvalues.py : This file contains the code to get all columns values mentioned in Output.xlsx provided.
+ 
+
+Notebooks Folder :- (For better understanding see these files)
+      
+              1. WebScraped_Data.ipynb : This file contains the same code used in webscraped.py . But, it also contains the output                                                            generated from each line of code.
+     
+              2. OutputValues.ipynb : This file contains the same code used in outputvalues.py But, it also contains the output                                                             generated from each line of code.
+              
+
+Output.xlsx :- This file contains the final Output generated.
+
+WebScraped_Data.csv :- This file contains the data extracted from WebScraping(URL_ID,URL,ArticleTitle,ArticleText).
+
+
+Flow of the PROJECT :
+              
+                                 1. First, I have used Input.xlsx file to get all the URLS and then used BeautifulSoup library to extract                                              ArticleTitle and ArticleText from all URLS and stored these titles and texts in WebScraped_Data.csv.
+                                     All these tasks are performed in WebScraped_Data.ipynb.
+
+                                 2. Then, I have used this WebScraped_Data.csv file,Stopword files and MasterDictionary files to extract                                           the values of all columns mentioned in Output Data Structure.xlsx file and stored the values in                                                   Output.xlsx file.
+                                     This task is performed in OutputValues.ipynb
+
+                                    
+
+
+ 
+
+
+    
+      
+         
